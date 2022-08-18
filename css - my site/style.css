@@ -1,0 +1,128 @@
+:root {
+    --body-font: 'Merriweather', serif;
+    --h1-font: 'Sacramento', cursive;
+    --otherH-Font: 'Montserrat', sans-serif;
+}
+
+body {
+    color: #40514e;
+    text-align: center;
+    margin: 0;
+    font-family: var(--body-font);
+}
+
+h1 {
+    color: #66BFBF;
+    font-size: 560%;
+    margin: 58px auto 0 auto;
+    margin-bottom: 20px;
+    font-family: var(--h1-font);
+}
+
+h2 {
+    font-weight: normal;
+    color: #66BFBF;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: var(--otherH-Font);
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+}
+
+h4 {
+    font-family: var(--otherH-Font);
+}
+
+.topBox {
+    height: 100vh;
+    padding-top: 50px;
+    background-color: #E3FDFD;
+}
+
+.midBox {}
+
+.skil,
+.profile img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.skil {
+    float: left;
+    margin-right: 30px;
+}
+
+.skil1 {
+    float: right;
+    margin-left: 30px;
+}
+
+.pro {
+    /* font-weight: 800; */
+    color: #069999;
+}
+
+.topCloud {
+    position: relative;
+    left: 180px;
+}
+
+.bttmCloud {
+    position: absolute;
+}
+
+.skill-row {
+    margin: 50px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.lowBox {
+    background-color: #66BFBF;
+    padding-top: 20px;
+}
+
+.lowBox p {
+    margin-bottom: 0;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #11cdd4;
+}
+
+.btn:hover {
+    background-color: #30e3cb;
+}
+
+.contact-me p {
+    margin-bottom: 40px;
+}
+
+.contact-me {
+    width: 40%;
+    margin: 20px auto 50px;
+}
+
+a {
+    text-decoration: none;
+    margin: 5px 30px;
+}
+
+a:hover {
+    color: #E3FDFD;
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px;
+}
