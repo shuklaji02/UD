@@ -1,0 +1,44 @@
+body {
+  color: antiquewhite;
+  background-color: rgb(0, 0, 0);
+}
+
+h2,
+h1 {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Result {
+  color: rgb(0, 255, 21);
+}
+
+.options {
+  margin-bottom: 0;
+  color: rgb(133, 5, 118);
+  font-size: xxx-large;
+}
+.flex > div {
+  margin: 10px;
+}
+.flex > div img {
+  border-radius: 16%;
+}
+
+.label {
+  color: blue;
+  margin-left: 24vw;
+  width: 50%;
+  justify-content: space-evenly;
+}
+.userl {
+  margin-left: -50px;
+}
+
+img {
+  height: 200px;
+}
